@@ -41,3 +41,31 @@ func main() {
 }
 OUTPUT: bangalore
         95
+*************************************************************************************************
+package main
+import "fmt"
+
+func main() {
+country:= "UK"
+{
+      city: "London"
+      fmt.println(city)
+      fmt.println(country)
+}
+fmt.println(country)
+fmt.println(city)
+}
+OUTPUT: ERROR. Because local var(line:56) city cannot be declared outside.
+// Correct code
+func main() {
+country:= "UK"
+{
+      city: "London"
+      fmt.println(city)
+      fmt.println(country)
+}
+fmt.println(country)
+}
+OUTPUT: LONDON
+        UK
+        UK
