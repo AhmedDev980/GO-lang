@@ -13,3 +13,11 @@ a=5,b=10
 a+b=15
 a=5,b=one
 a+b=5one
+
+
+* Integers
+It can be declared as int(Both + and - ) and uint ( only + )
+* String
+It can be declared as string. What ever declared in " " will be taken as string even numbers also.
+* Boolean
+It can be decalred as bool.
