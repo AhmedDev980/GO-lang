@@ -25,5 +25,3 @@ It can be decalred as bool.
 It can be declared as float32 or float64.
 
 ![image](https://github.com/user-attachments/assets/583538b5-fea3-4014-985e-ec64e37c059a)
-![image](https://github.com/user-attachments/assets/583538b5-fea3-4014-985e-ec64e37c059a)
-
