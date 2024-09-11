@@ -15,3 +15,29 @@ func main() {
 }
 OUTPUT: go run main.go----> Green
 *****************************************************************************************
+
+var name string = "bangalore"
+fmt.printf("The city name is %v", name)
+OUTPUT: The city name is bangalore
+
+var score int = 95
+fmt.printf("Marks: %d", score)
+OUTPUT: Marks: 95
+
+fmt.print("Hey, %v! you have scored %i/100 in pollution", name,score)
+OUTPUT: Hey, bangalore! you have scored 95/100 in pollution.
+
+*********************************************************************************************
+
+package main
+import "fmt"
+
+func main() {
+  var(
+  name string = "bangalore"
+  marks int = 95)
+  fmt.println(name)
+  fmt.println(marks)
+}
+OUTPUT: bangalore
+        95
