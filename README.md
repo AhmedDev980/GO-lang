@@ -21,3 +21,5 @@ It can be declared as int(Both + and - ) and uint ( only + )
 It can be declared as string. What ever declared in " " will be taken as string even numbers also.
 * Boolean
 It can be decalred as bool.
+* Float
+It can be declared as float32 or float64.
