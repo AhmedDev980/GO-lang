@@ -25,3 +25,7 @@ It can be decalred as bool.
 It can be declared as float32 or float64.
 
 ![image](https://github.com/user-attachments/assets/583538b5-fea3-4014-985e-ec64e37c059a)
+
+
+* Variable declaration
+If we hard coded string like name:= "bangalore" then output will be bangalore and again if we overlap the existing string with another string then name = "chennai" then output will be chennai. But if we overlap the string with int then it will throw error. For ex if we give name = 123 instead of name = "chennai" then it will throw error.
