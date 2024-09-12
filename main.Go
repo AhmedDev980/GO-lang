@@ -69,3 +69,35 @@ fmt.println(country)
 OUTPUT: LONDON
         UK
         UK
+
+*************************************************************************************************
+package main
+import"fmt"
+func main() {
+  var colour string = "blue"
+  var marks int = 95
+  var valid bool = true
+
+fmt.printf("shirt colour = %v is a type of %T \n", colour,colour)
+fmt.printf("marks scored = %v is a type of %T \n", marks,marks)
+fmt.printf("validation = %v is a type if %T \n", valid,valid)
+}
+
+OUTPUT: shirt coloue = blue is a type of string
+        marks scored = 95 is a type of int
+        validation = true is a type of bool
+
+//OR WE CAN WRITE IT USING reflect.TypeOf()
+
+package main
+import{
+"fmt"
+"reflect"
+}
+func main() {
+  fmt.printf("Type: %v \n", reflect.TypeOf(100))
+  fmt.printf("Type: %v \n", reflect.TypeOf("Ahmed"))
+}
+
+OUTPUT: Type: int
+        Type: string
