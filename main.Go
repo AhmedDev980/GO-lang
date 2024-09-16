@@ -101,3 +101,15 @@ func main() {
 
 OUTPUT: Type: int
         Type: string
+
+*****************************************************************************************
+package main
+import (
+  "fmt"
+  "strconv")
+func main() {
+ var i int = 45
+ var s string = strconv.itoa(i) // itoa means convert integer to string
+ fmt.printf("%q", s)
+}
+OUTPUT: "45"
