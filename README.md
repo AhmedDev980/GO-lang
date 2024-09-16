@@ -29,3 +29,7 @@ It can be declared as float32 or float64.
 
 * Variable declaration
 If we hard coded string like name:= "bangalore" then output will be bangalore and again if we overlap the existing string with another string then name = "chennai" then output will be chennai. But if we overlap the string with int then it will throw error. For ex if we give name = 123 instead of name = "chennai" then it will throw error.
+
+* Conversion Data Types.
+This is used to convert the datatypes and it is called "TYPE CASTING" . For EX: STRING TO INT and INT to STRING etc.
+For this we will use the package called strconv package.
