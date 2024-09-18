@@ -33,3 +33,24 @@ If we hard coded string like name:= "bangalore" then output will be bangalore an
 * Conversion Data Types.
 This is used to convert the datatypes and it is called "TYPE CASTING" . For EX: STRING TO INT and INT to STRING etc.
 For this we will use the package called strconv package.
+
+* OPERATORS
+  1. COMPARISION OPERATORS
+     1. EQUAL TO ( == )
+     2. NOT EQUAL TO ( != )
+     3. LESS ( < )
+     4. LESS THAN EQUAL ( <= )
+     5. GREATER ( > )
+     6. GREATER THAN EQUAL ( >= )
+  2. ARITHMATIC OPERATORS
+     1. ADDITION ( + )
+     2. SUBTRACTION ( - )
+     3. MULTIPLICATION ( * )
+     4. DIVISION ( / )
+     5. MODULUS ( % )
+     6. INCREMENT ( ++ )
+     7. DECREMENT ( -- )
+  3. LOGICAL OPERATORS
+     1. AND ( && )
+     2. OR ( || )
+     3. NOT ( ! )
