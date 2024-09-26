@@ -54,3 +54,16 @@ For this we will use the package called strconv package.
      1. AND ( && )
      2. OR ( || )
      3. NOT ( ! )
+  4. ASSIGNMENT OPERATORS
+     1. =
+     2. +=
+     3. -=
+     4. /=
+     5. %=
+  5. BIT WISE OPERATORS
+     1. & ( AND )
+     2. | ( OR )
+     3. ^ ( XOR )
+     4. >> ( RIGHT )
+     5. << ( LEFT )
+        
