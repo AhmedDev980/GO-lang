@@ -113,3 +113,68 @@ func main() {
  fmt.printf("%q", s)
 }
 OUTPUT: "45"
+
+*********************************************************************************************
+package main
+import "fmt"
+
+func main {
+  fruit := apple
+  if fruit == "grape" {
+   fmt.println("They are not tasty")
+  } else-if fruit == "orange" {
+    fmt.println("Thet are not apple")
+  } else {
+    fmt.println("They are not in list")
+  }
+}
+OUTPUT: They are not in list.
+
+******************************************************************************************
+
+package main
+import "fmt"
+
+func main {
+  var a,b int == 10,20
+  switch {
+    case a+b == 30:
+      fmt.println("a+b=30 is true")
+    case a+b >= 30:
+      fmt.println("This is true")
+    default:
+      fmt.println("Default")
+  }
+}
+
+OUTPUT: a+b=30 is true
+
+********************************************************************************************
+
+package main
+import "fmt"
+
+func main {
+  for i := 1; i <= 5; i++ {
+     if i == 3 {
+       break
+     }
+     fmt.println(i)
+  }
+}
+
+OUTPUT: 1
+        2
+
+func main {
+  for i := 1; i<=5; i++ {
+    if i == 3 {
+      continue
+    }
+    fmt.println(i)
+  }
+}
+OUTPUT: 1
+        2
+        4
+        5
