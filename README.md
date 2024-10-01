@@ -67,3 +67,7 @@ For this we will use the package called strconv package.
      4. >> ( RIGHT )
      5. << ( LEFT )
         
+* ARRAYS
+  Array declaration:  var array_name array_size data_type
+  EX: var fruits [3] string = var fruits [3]string{"apple", "orange", "grapes"}
+  fruits := [...]string{"apple", "orange", "grapes"}
