@@ -71,3 +71,8 @@ For this we will use the package called strconv package.
   Array declaration:  var array_name array_size data_type
   EX: var fruits [3] string = var fruits [3]string{"apple", "orange", "grapes"}
   fruits := [...]string{"apple", "orange", "grapes"}
+
+  MULTI DIMENSIONAL ARRAY
+  array := [3][2]int{{2,3},{4,6},{2,8}}
+    fmt.println(array[1][1])
+  OUTPUT: 6
